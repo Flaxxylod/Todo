@@ -36,7 +36,7 @@ const Main = () => {
                         {obj.description}
                     </ToDoTask>
                 ))}
-
+                <AddTaskButton/>
             </div>
         </main>
     );
