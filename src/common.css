@@ -1,0 +1,72 @@
+html {
+    background-color: var(--Light-Text-color);
+    overflow-x: hidden;
+    
+}
+
+* {
+    font-family: "Kanit";
+
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--Dark-color);
+}
+
+:root {
+    --Light-color: #6C63FF;
+    --Light-Text-color: #F7F7F7;
+    --Blind-Light-color: #C3C1E5;
+    --Dark-color: #252525;
+
+}
+
+
+
+
+
+h1 {
+    font-size: 1.625rem;
+
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 735px;
+    width: 100%;
+    /* Добавляем */
+}
+
+/* СТИЛИ ЧЕКБОКСА */
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 26px;
+    height: 26px;
+    border: 2px solid #d1d5db;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: white;
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--Light-color);
+    border-color: none;
+}
+
+/*для отображения галочки*/
+input[type="checkbox"]:checked::before {
+    content: "✓";
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* СТИЛИ ЧЕКБОКСА */

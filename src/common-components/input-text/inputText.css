@@ -1,0 +1,11 @@
+input[type="text"]{
+    border: 1px solid var(--Light-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.input_text-content input::placeholder{
+    color: var(--Blind-Light-color);
+    opacity: 1;
+}
